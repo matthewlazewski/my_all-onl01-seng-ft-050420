@@ -6,7 +6,7 @@ def my_all?(collection)
   while i < collection.length 
     if yield(collection[i]) == false 
       return false 
-    i += 1 
+      i += 1 
     end 
   end 
   true
